@@ -6,6 +6,7 @@
   margin: 16px 16px;
 
   .countrieCard__header {
+    padding: 0 16px;
     height: 60px;
     background: var(--secondaryThemeColor);
     border-radius: 8px 8px 0px 0;
