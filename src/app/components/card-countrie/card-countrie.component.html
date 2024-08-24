@@ -1,0 +1,19 @@
+<article class="countrieCard">
+  <header class="countrieCard__header">
+    <h1 class="countrieCard__title">{{ item.name.common }}</h1>
+  </header>
+  <div class="countrieCard__image-container">
+    <img class="countrieCard__image" src="{{ item.flags.png }}" alt="" />
+  </div>
+  <footer class="countrieCard__footer">
+    <div class="countrieCard__details">
+      <p class="countrieCard__detail">
+        <strong>Capital</strong>: {{ item.capital }}
+      </p>
+      <p class="countrieCard__detail">
+        <strong>População</strong>: {{ item.population }}
+      </p>
+      <p class="countrieCard__detail"><strong>Área</strong>: {{ item.area }}</p>
+    </div>
+  </footer>
+</article>
