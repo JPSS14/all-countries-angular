@@ -9,9 +9,13 @@ import { Countries } from '../models/countries.model';
 export class CountriesService {
   private url = environment.api;
 
-  constructor(private httpClient: HttpClient) {}
+  constructor(private http: HttpClient) {}
 
   getAllCountries() {
-    return this.httpClient.get<Countries[]>(`${this.url}/all`);
+    return this.http.get<Countries[]>(`${this.url}/all`);
+  }
+
+  getCountryByName(country: string) {
+    return this.http.get<Countries[]>(`${this.url}/name/${country}`);
   }
 }
