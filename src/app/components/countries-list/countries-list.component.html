@@ -1,0 +1,7 @@
+<section class="countriesList">
+  <div class="countriesList-container">
+    @for(countrie of countriesList; track countrie){
+    <app-card-countrie [item]="countrie"></app-card-countrie>
+    }
+  </div>
+</section>

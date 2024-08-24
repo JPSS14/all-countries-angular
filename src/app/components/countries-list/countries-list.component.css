@@ -1,0 +1,34 @@
+.countriesList{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 16px auto;
+
+  .countriesList-container{
+    width: 1288px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 1288px){
+  .countriesList{
+    max-width: 966px;
+  }
+}
+
+@media (max-width: 966px){
+  .countriesList{
+    max-width: 644px;
+  }
+}
+
+@media (max-width: 644px){
+  .countriesList{
+    width: 100%;
+    .countriesList-container{
+      justify-content: center;
+    }
+  }
+}
