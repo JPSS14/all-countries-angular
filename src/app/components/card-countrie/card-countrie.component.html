@@ -11,9 +11,11 @@
         <strong>Capital</strong>: {{ item.capital }}
       </p>
       <p class="countrieCard__detail">
-        <strong>População</strong>: {{ item.population }}
+        <strong>População</strong>: {{ item.population | number : "1.0-0" }}
       </p>
-      <p class="countrieCard__detail"><strong>Área</strong>: {{ item.area }}</p>
+      <p class="countrieCard__detail">
+        <strong>Área</strong>: {{ item.area | number : "1.0-0" }} Km²
+      </p>
     </div>
   </footer>
 </article>
