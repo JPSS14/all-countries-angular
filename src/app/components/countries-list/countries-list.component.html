@@ -1,4 +1,5 @@
 <section class="countriesList">
+  <!-- <app-search (searchCountrieResult)="updateCountrieList($event)"></app-search> -->
   <div class="countriesList-container">
     @for(countrie of countriesList; track countrie){
     <app-card-countrie [item]="countrie"></app-card-countrie>
