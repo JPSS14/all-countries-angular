@@ -1,6 +1,6 @@
 # AllCountriesAngular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
+![all-countries-project](https://github.com/user-attachments/assets/ac9fc77e-9ad7-426c-beb8-774661e7df9c)
 
 ## Development server
 
