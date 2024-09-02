@@ -4,9 +4,13 @@
   background: var(--mainThemeColor);
   padding: 0 16px;
   position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 
   .container__image {
     position: absolute;
+    left: 16px;
     z-index: 99;
     width: 80px;
     height: 80px;
