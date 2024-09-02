@@ -1,0 +1,20 @@
+<div class="language">
+  <div class="language__selected" (click)="toggleDropdown()">
+    <img class="arrow__icon" src="/arrow-down.png" alt="seta para baixo" />
+    <div class="image__container">
+      <img [src]="selectedLanguage.image" [alt]="selectedLanguage.name" />
+    </div>
+  </div>
+  @if(isDropdownOpen){
+  <ul class="language__options">
+    @for(language of languageList; track language){
+    <li class="language__option" (click)="selectLanguage(language)">
+      <div class="image__container">
+        <img [src]="language.image" [alt]="language.name" />
+      </div>
+      {{ language.name }}
+    </li>
+    }
+  </ul>
+  }
+</div>
