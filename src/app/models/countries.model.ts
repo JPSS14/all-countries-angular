@@ -12,7 +12,7 @@ export interface Countries {
   capital: string[];
   altSpellings: string[];
   region: string;
-  languages: Languages;
+  languages: CountryLanguages;
   translations: { [key: string]: Translation };
   latlng: number[];
   landlocked: boolean;
@@ -69,7 +69,7 @@ export interface Idd {
   suffixes: string[];
 }
 
-export interface Languages {
+export interface CountryLanguages {
   eng: string;
 }
 
