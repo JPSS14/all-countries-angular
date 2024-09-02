@@ -1,6 +1,8 @@
 <article class="countrieCard">
   <header class="countrieCard__header">
-    <h1 class="countrieCard__title">{{ item.name.common }}</h1>
+    <h1 class="countrieCard__title">
+      {{ item.translations[selectedLanguage.name].common }}
+    </h1>
   </header>
   <div class="countrieCard__image-container">
     <img class="countrieCard__image" src="{{ item.flags.png }}" alt="" />
