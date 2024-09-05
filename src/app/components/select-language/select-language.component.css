@@ -24,10 +24,12 @@
   }
 
   .language__options {
+    max-height: 433px;
+    overflow-y: scroll;
     position: absolute;
     right: -8%;
     top: 0%;
-    width: 120px;
+    width: 135px;
     background: #fff;
     list-style: none;
     border-radius: 8px;
