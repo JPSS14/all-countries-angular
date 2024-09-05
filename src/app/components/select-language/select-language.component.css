@@ -16,6 +16,8 @@
     width: 75px;
     height: 35px;
     border-radius: 8px;
+    border: 1px solid #000;
+    filter: drop-shadow(#000 0px 2px 2px);
 
     .arrow__icon {
       width: 14px;
