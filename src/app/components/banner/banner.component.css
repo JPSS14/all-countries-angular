@@ -1,0 +1,29 @@
+.banner{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 347px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 24px;
+
+  img{
+    display: block;
+    width: 1120px;
+    height: 757px;
+    z-index: 0;
+    position: absolute;
+    top: -59%;
+  }
+}
+
+.banner::before{
+  content: "";
+  width: 1120px;
+  height: 100%;
+  background-color: var(--mainThemeColor);
+  opacity: 0.95;
+  mix-blend-mode: multiply;
+  z-index: 1;
+}
+
