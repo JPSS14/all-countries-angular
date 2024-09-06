@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './components/header/header.component';
 import { CountriesListComponent } from './components/countries-list/countries-list.component';
 import { SearchComponent } from './components/search/search.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ import { SearchComponent } from './components/search/search.component';
     HeaderComponent,
     CountriesListComponent,
     SearchComponent,
+    BannerComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
