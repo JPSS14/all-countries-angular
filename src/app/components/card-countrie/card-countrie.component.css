@@ -43,7 +43,7 @@
 
     .countrieCard__details {
       color: #fff;
-      font-size: 18px;
+      font-size: 1rem;
       width: 261px;
       height: 130px;
       margin: 38px auto;
@@ -51,7 +51,7 @@
       flex-direction: column;
       justify-content: space-between;
       background: var(--mainThemeColor);
-      padding: 8px;
+      padding: 16px;
       border-radius: 8px;
       filter: drop-shadow(#000 0px 1px 1px);
       border: 1px solid #000;
