@@ -1,6 +1,11 @@
 .search{
+  position: absolute;
   width: 290px;
-  margin: 60px auto;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  filter: drop-shadow(#000 2px 2px 2px);
 
   .search__container{
     display: flex;
@@ -41,5 +46,6 @@
   .search__message{
     color: #fff;
     font-size: 11px;
+    margin-left: 3px;
   }
 }

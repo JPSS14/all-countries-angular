@@ -26,6 +26,7 @@
   }
 
   .language__options {
+    z-index: 4;
     max-height: 433px;
     overflow-y: scroll;
     position: absolute;

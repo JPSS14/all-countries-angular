@@ -2,7 +2,7 @@
   position: relative;
   display: flex;
   justify-content: center;
-  height: 347px;
+  height: 251px;
   width: 100%;
   overflow: hidden;
   margin-top: 24px;
@@ -13,7 +13,7 @@
     height: 757px;
     z-index: 0;
     position: absolute;
-    top: -59%;
+    top: -88%;
   }
 }
 
