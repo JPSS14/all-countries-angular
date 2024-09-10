@@ -1,6 +1,6 @@
 # AllCountriesAngular
 
-![all-countries-project](https://github.com/user-attachments/assets/ac9fc77e-9ad7-426c-beb8-774661e7df9c)
+![all-countries-project-2](https://github.com/user-attachments/assets/7d070943-0ff9-4394-9be2-141cda354562)
 
 ## Development server
 
