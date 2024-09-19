@@ -4,6 +4,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/jpss14/all-countries-angular)
 ![GitHubissues](https://img.shields.io/github/issues/jpss14/all-countries-angular)
 ![GitHub Stars](https://img.shields.io/github/stars/jpss14/all-countries-angular)
+![GitHub License](https://img.shields.io/github/license/jpss14/all-countries-angular)
 
 ![all-countries-project-2](https://github.com/user-attachments/assets/7d070943-0ff9-4394-9be2-141cda354562)
 
